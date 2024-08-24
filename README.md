@@ -40,3 +40,23 @@ Este projeto implementa um chatbot simples para responder automaticamente mensag
 
 Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e correções. Este projeto é destinado a fins educacionais e como exemplo de implementação de um chatbot simples em Node.js.
 
+**Tecnologias**
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![JSON](https://img.shields.io/badge/-JSON-333333?style=flat&logo=json)
+
+**Testes**
+
+![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
+![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
+
+**Ferramentas de Desenvolvimento**
+
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+<br/>
+
+<!-- <a href="https://github.com/artstar10">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=artstar10&theme=dracula&show_icons=true" alt="GitHub Stats"/>
+</a> -->
+
+<br/>
