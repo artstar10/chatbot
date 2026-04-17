@@ -2,12 +2,67 @@
 
 Este repositório começou como um projeto prático de um chatbot simples para responder automaticamente mensagens no WhatsApp relacionadas a vagas de emprego. A base original foi mantida e ampliada com uma trilha de estudo usando o Google NotebookLM como ferramenta de aprendizagem ativa, curadoria de fontes e organização de conhecimento.
 
+Além desse percurso, o README agora também registra um novo desafio prático voltado a reconhecimento de voz e conversação multi-idiomas com IA: **Conversando por Voz com o ChatGPT Utilizando Whisper (OpenAI) e Python**.
+
 ## Visão Geral do Estudo
 
 O objetivo deste projeto foi transformar um projeto técnico já iniciado em um caderno temático de estudos, documentando não apenas o código, mas também o processo de pesquisa, análise de fontes, testes de prompts e consolidação do aprendizado.
 
+Com a inclusão do novo desafio de voz, o repositório passa a representar duas frentes complementares de aprendizagem: automação conversacional por texto e experiências conversacionais por voz com apoio de IA generativa.
+
 Tema escolhido:
 **Como criar e evoluir um chatbot de recrutamento para WhatsApp com Node.js**
+
+Desafio complementar:
+**Conversando por Voz com o ChatGPT Utilizando Whisper (OpenAI) e Python**
+
+## Novo Desafio de Reconhecimento de Voz
+
+Este desafio amplia o portfólio do projeto ao explorar uma experiência conversacional baseada em voz. A proposta é construir uma solução capaz de gravar áudio, transcrever a fala com o Whisper, enviar o texto para uma IA generativa e devolver a resposta em áudio, criando uma conversa mais natural e acessível.
+
+Ao combinar tecnologias de Speech-to-Text e Text-to-Speech, a solução demonstra como perguntas feitas por voz podem ser compreendidas e respondidas em diferentes idiomas. O Whisper atua na transcrição e tradução, o ChatGPT entra como camada de interpretação e resposta, e o `gTTS` transforma a resposta em voz novamente.
+
+### O Que Este Desafio Explora
+
+- Gravação de áudio com Python e apoio de JavaScript em ambiente interativo.
+- Reconhecimento de fala com `Whisper` da OpenAI.
+- Integração com a API do `ChatGPT` para geração de respostas.
+- Síntese de voz com `gTTS` para transformar texto em áudio.
+- Construção de fluxos multi-idiomas para comunicação mais natural.
+
+### Visão Geral dos Passos do Lab
+
+1. Gravação de áudio com Python e uma pitada de JavaScript.
+2. Reconhecimento de fala com Whisper (OpenAI).
+3. Integração com a API do ChatGPT.
+4. Sintetização da resposta como voz com `gTTS`.
+5. Testes, conclusão e adaptação da ideia para novas aplicações.
+
+### Objetivos de Aprendizagem Deste Desafio
+
+- Entender como capturar áudio em um fluxo de prototipação com Python.
+- Aplicar Speech-to-Text para transformar fala em texto utilizável por uma IA.
+- Integrar uma IA generativa para interpretar perguntas e produzir respostas relevantes.
+- Converter respostas textuais em áudio para criar experiências mais completas.
+- Explorar casos de uso que unem acessibilidade, idiomas e automação inteligente.
+
+### Materiais de Apoio
+
+Artigo recomendado:
+**Conversando por Voz com o ChatGPT Utilizando Whisper (OpenAI) e Python**
+
+Links úteis:
+
+- Código-fonte deste desafio no Google Colab: [https://colab.research.google.com/drive/1VRIEQIYlqYT4Lx3Ow9albKfV2Wq--P0x?usp=sharing](https://colab.research.google.com/drive/1VRIEQIYlqYT4Lx3Ow9albKfV2Wq--P0x?usp=sharing)
+
+### Como Este Desafio se Conecta ao Projeto
+
+Mesmo que o código atual do repositório ainda esteja centrado no chatbot textual em Node.js, este novo desafio aponta uma evolução natural para a solução:
+
+- adicionar entrada por voz ao fluxo de atendimento;
+- permitir interações mais acessíveis e naturais;
+- expandir o chatbot para cenários multi-idiomas;
+- integrar reconhecimento de fala e síntese de voz a futuras versões do projeto.
 
 ## NotebookLM
 
@@ -134,6 +189,12 @@ O estudo no NotebookLM ajudou a enxergar que o projeto atual já tem uma base v�
 - respostas automatizadas baseadas em regra;
 - potencial de evolução para fluxos mais completos de atendimento.
 
+Com o novo desafio de reconhecimento de voz, essa visão se amplia para incluir:
+
+- transcrição de perguntas faladas para texto;
+- geração de respostas mais contextuais com IA generativa;
+- retorno em áudio para experiências conversacionais mais imersivas.
+
 Com isso, este repositório deixa de ser apenas um exemplo de código e passa a registrar também o processo de aprendizagem, análise crítica e consolidação de conhecimento construídos ao longo do estudo.
 
 ## Projeto Base Desenvolvido
@@ -184,6 +245,8 @@ Esta seção preserva a ideia original do repositório, agora integrada ao conte
 
 Este projeto representa a união entre prática e estudo orientado por IA. O chatbot simples foi mantido como base real de aplicação, enquanto o NotebookLM foi usado como apoio para compreender melhor os conceitos, organizar fontes, testar perguntas e consolidar um miniguia de estudo reutilizável.
 
+Com a adição do desafio de reconhecimento de voz, o README também passa a documentar uma trilha complementar focada em `Python`, `Whisper`, `ChatGPT` e `gTTS`, ampliando o escopo do portfólio para experiências conversacionais por voz.
+
 ## Contribuição
 
 Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e correções. Este projeto é destinado a fins educacionais e como exemplo de implementação de um chatbot simples em Node.js com documentação de aprendizagem aplicada.
@@ -191,6 +254,7 @@ Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e c
 **Tecnologias**
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
 ![JSON](https://img.shields.io/badge/-JSON-333333?style=flat&logo=json)
 
 **Testes**
